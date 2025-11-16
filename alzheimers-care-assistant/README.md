@@ -128,6 +128,17 @@ A beautiful, compassionate AI-powered web application designed to provide suppor
 
    The easiest way to deploy is using the [Vercel Platform](https://vercel.com/new):
 
+   **Important**: If your Next.js app is in a subdirectory (like `alzheimers-care-assistant/`), you need to:
+
+   - In Vercel project settings, set **Root Directory** to `alzheimers-care-assistant`
+   - Or use the `vercel.json` configuration file in the repository root
+
+   Then deploy:
+   ```bash
+   npm install -g vercel
+   vercel
+   ```
+
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/alzheimers-care-assistant)
 
 ## Customization ⚙️
